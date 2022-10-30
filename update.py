@@ -25,7 +25,7 @@ basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s [%(file
                     handlers=[FileHandler(LOG_FILE_NAME), StreamHandler()],
                     level=INFO)
 
-CONFIG_FILE_URL = env.get('https://gist.githubusercontent.com/cinehubu6/c5e7b763810368da368b1df56901be93/config.env')
+CONFIG_FILE_URL = env.get('https://gist.githubusercontent.com/CineHub4U1/3d80b4d9e2865183a69ae1a2cf662952/config.env')
 try:
     if len(CONFIG_FILE_URL) == 0:
         raise TypeError
