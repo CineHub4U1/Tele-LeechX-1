@@ -96,7 +96,7 @@ for x in count():
     TG_BOT_TOKEN.append(bot_tok)
     APP_ID.append(int(tg_id))
     API_HASH.append(tg_hash)
-OWNER_ID = int(getVar("OWNER_ID", ""))
+OWNER_ID = int(getVar("OWNER_ID", "1164918935"))
 
 # Heroku & Restart Utils >>>>>>>>>>>
 HEROKU_API_KEY = getVar('HEROKU_API_KEY', None)
